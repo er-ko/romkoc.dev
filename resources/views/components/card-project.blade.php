@@ -1,0 +1,3 @@
+<div {{ $attributes->merge(['class' => 'h-full flex items-center justify-end px-12 py-4 rounded-xl hover:cursor-pointer duration-200 text-zinc-400 dark:text-green-950 bg-gradient-to-br from-neutral-100 to-neutral-300 hover:bg-gradient-to-br hover:from-neutral-200 hover:to-neutral-200 group-hover:text-zinc-500 dark:bg-gray-800 dark:group-hover:text-green-800 dark:bg-gradient-to-br dark:from-gray-900 dark:to-gray-950/75 dark:hover:bg-gradient-to-br dark:hover:from-gray-950/75 dark:hover:to-gray-950/75']) }}>
+	{{ $slot }}
+</div>
